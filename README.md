@@ -36,16 +36,47 @@ java.nio.file.Path;
 1. Screenshot the map and add it into the **images** folder of this project,
 1. Last add image markdown below this line to load your map image.
 
+  ![Map Picture](images/Java_Assignment_3_MapPicture.jpg)
 ## PART 3 - Code Scanning and Interpretation
 * Look at the getHiddenSecrets method and identify the following parts:
     * What is the access modifer (public, private, protected)?
-    * Is it a Class method or an object Instance method, how do you know?
-    * What is its return data-type?
-    * Does it require any parameters, and if so, how many and of what type?
+  
+It's a public method
+
+* Is it a Class method or an object Instance method, how do you know?
+
+It's a Class method because we didn't initiate an instance.
+
+  * What is its return data-type?
+
+It is a "void" type.
+
+  * Does it require any parameters, and if so, how many and of what type?
+
+It requires a "File" type parameter.
+
 * Scan line by line through the code and try to determine how it works?
     * What is familiar to you?
-    * What is not familiar to you?
-    * Do the **for** loops make sense, and if so, tell me what you think they do?
+
+From my observation the method getHiddenSecrets() created a Metadata object with the given File type parameter "file". 
+It gets the directories and tags, and it formats the output by the Name, tagName, and the Description. 
+The try statement is there in case there are any errors in processing the Metadata. 
+The program I wrote asks for the user to enter a file path, and it calls the getHiddenSecrets() method and inputs the file path.
+
+  * What is not familiar to you?
+
+I'm not at all familiar with processing metadata until now, and there's still so much more for me to learn about it.
+I also don't fully understand the syntax of Java yet, and I'm learning to see the distinctions and commonalities between Java and Python.
+I am also not as familiar with making code as efficiently as possible yet, and I don't know how to recognize if someone's code is more complicated than it needs to be.
+I also am not fully familiar with the logic of computers yet, and I don't fully comprehend the process of planning a coding project or designing the systems architecture yet,
+which is something I really want to learn.
+
+  * Do the **for** loops make sense, and if so, tell me what you think they do?
+
+As a beginner, my understanding of for loops are that they repeatedly execute code by iterating through the elements of a list.
+As an example, a for loop could print each element of a simple list of integers like [1,2,3,4,5,6,7,8,9,10] by printing each element one after the other.
+
+I think I'm familiar with the concept of how for loops work, but I still have so much more to learn about them from a First Principles perspective.
 
 ## PART 4 - Turn in
 ### Same as the last 2 Weeks!
