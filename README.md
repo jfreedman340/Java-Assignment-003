@@ -69,7 +69,7 @@ I'm not at all familiar with processing metadata until now, and there's still so
 I also don't fully understand the syntax of Java yet, and I'm learning to see the distinctions and commonalities between Java and Python.
 I am also not as familiar with making code as efficiently as possible yet, and I don't know how to recognize if someone's code is more complicated than it needs to be.
 I also am not fully familiar with the logic of computers yet, and I don't fully comprehend the process of planning a coding project or designing the systems architecture yet,
-which is something I really want to learn.
+which is something I definitely want to learn.
 
   * Do the **for** loops make sense, and if so, tell me what you think they do?
 
